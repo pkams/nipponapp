@@ -13,8 +13,8 @@ def main():
 	st.title('Análise de Eficiência dos Banhos')
 
 	st.markdown('Arquivos de exemplo: ')
-	st.markdown('[Baixar planilha de exemplo 1](https://drive.google.com/u/0/uc?id=13snS3ONuqyXG5bTWwIlULCzeUNuAB9xk&export=download)', unsafe_allow_html=True)	
-	st.markdown('[Baixar planilha de exemplo 2](https://drive.google.com/u/0/uc?id=1lwXTwdmTl4D6TKUP2wD6vdRESKBBMYZw&export=download)', unsafe_allow_html=True)		
+	#st.markdown('[Baixar planilha de exemplo 1](https://drive.google.com/u/0/uc?id=13snS3ONuqyXG5bTWwIlULCzeUNuAB9xk&export=download)', unsafe_allow_html=True)	
+	#st.markdown('[Baixar planilha de exemplo 2](https://drive.google.com/u/0/uc?id=1lwXTwdmTl4D6TKUP2wD6vdRESKBBMYZw&export=download)', unsafe_allow_html=True)		
 	
 	data = st.file_uploader('Faça upload do arquivo', type=['csv', 'txt', 'xlsx'])
 	
